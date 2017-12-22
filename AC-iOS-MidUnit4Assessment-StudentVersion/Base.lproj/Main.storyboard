@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--blackjack-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="AC_iOS_MidUnit4Assessment_StudentVersion" customModuleProvider="target" sceneMemberID="viewController">
@@ -102,7 +102,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="5RF-Nw-Kxm"/>
+                    <tabBarItem key="tabBarItem" title="blackjack" id="5RF-Nw-Kxm"/>
                     <navigationItem key="navigationItem" id="qnc-c3-Yy7"/>
                     <connections>
                         <outlet property="collectionView" destination="kBE-PN-PsJ" id="P8k-qZ-Kl8"/>
@@ -113,7 +113,7 @@
             </objects>
             <point key="canvasLocation" x="6" y="104"/>
         </scene>
-        <!--blackjack-->
+        <!--history-->
         <scene sceneID="r0V-LN-fpl">
             <objects>
                 <viewController id="fyI-R9-snF" sceneMemberID="viewController">
@@ -123,7 +123,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cIs-EJ-EAO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="blackjack" id="4fe-Ha-sL5"/>
+                    <tabBarItem key="tabBarItem" title="history" id="4fe-Ha-sL5"/>
                     <navigationItem key="navigationItem" id="f0u-r2-9Ot"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MT6-bR-7Co" userLabel="First Responder" sceneMemberID="firstResponder"/>
