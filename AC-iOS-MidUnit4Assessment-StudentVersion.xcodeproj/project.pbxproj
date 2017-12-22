@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		545F2AB41FEC2752007EBECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F2AB31FEC2752007EBECB /* AppDelegate.swift */; };
-		545F2AB61FEC2752007EBECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F2AB51FEC2752007EBECB /* ViewController.swift */; };
+		545F2AB61FEC2752007EBECB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F2AB51FEC2752007EBECB /* GameViewController.swift */; };
 		545F2AB91FEC2752007EBECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545F2AB71FEC2752007EBECB /* Main.storyboard */; };
 		545F2ABB1FEC2752007EBECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545F2ABA1FEC2752007EBECB /* Assets.xcassets */; };
 		545F2ABE1FEC2752007EBECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545F2ABC1FEC2752007EBECB /* LaunchScreen.storyboard */; };
+		D2653EF71FED84B8005B8838 /* GameCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2653EF61FED84B8005B8838 /* GameCardCollectionViewCell.swift */; };
+		D27F01DB1FED5E1900209963 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F01DA1FED5E1900209963 /* NetworkHelper.swift */; };
+		D27F01DD1FED5E5500209963 /* ImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F01DC1FED5E5500209963 /* ImageAPIClient.swift */; };
+		D27F01E11FED5F4900209963 /* NewDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F01E01FED5F4900209963 /* NewDeck.swift */; };
+		D27F01E51FED5FAD00209963 /* RandomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F01E41FED5FAD00209963 /* RandomCard.swift */; };
+		D27F01E71FED712400209963 /* GameCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27F01E61FED712400209963 /* GameCardView.xib */; };
+		D27F01E91FED727400209963 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F01E81FED727400209963 /* GameCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		545F2AB01FEC2752007EBECB /* AC-iOS-MidUnit4Assessment-StudentVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-MidUnit4Assessment-StudentVersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		545F2AB31FEC2752007EBECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		545F2AB51FEC2752007EBECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		545F2AB51FEC2752007EBECB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		545F2AB81FEC2752007EBECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		545F2ABA1FEC2752007EBECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		545F2ABD1FEC2752007EBECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		545F2ABF1FEC2752007EBECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2653EF61FED84B8005B8838 /* GameCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		D27F01DA1FED5E1900209963 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		D27F01DC1FED5E5500209963 /* ImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPIClient.swift; sourceTree = "<group>"; };
+		D27F01E01FED5F4900209963 /* NewDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeck.swift; sourceTree = "<group>"; };
+		D27F01E41FED5FAD00209963 /* RandomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCard.swift; sourceTree = "<group>"; };
+		D27F01E61FED712400209963 /* GameCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameCardView.xib; sourceTree = "<group>"; };
+		D27F01E81FED727400209963 /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +69,36 @@
 			isa = PBXGroup;
 			children = (
 				545F2AB31FEC2752007EBECB /* AppDelegate.swift */,
-				545F2AB51FEC2752007EBECB /* ViewController.swift */,
+				D27F01E21FED5F6400209963 /* Models */,
+				D27F01E31FED5F8700209963 /* View Controllers */,
 				545F2AB71FEC2752007EBECB /* Main.storyboard */,
+				D2653EF61FED84B8005B8838 /* GameCardCollectionViewCell.swift */,
+				D27F01E61FED712400209963 /* GameCardView.xib */,
+				D27F01E81FED727400209963 /* GameCardView.swift */,
 				545F2ABA1FEC2752007EBECB /* Assets.xcassets */,
 				545F2ABC1FEC2752007EBECB /* LaunchScreen.storyboard */,
 				545F2ABF1FEC2752007EBECB /* Info.plist */,
 			);
 			path = "AC-iOS-MidUnit4Assessment-StudentVersion";
+			sourceTree = "<group>";
+		};
+		D27F01E21FED5F6400209963 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D27F01E01FED5F4900209963 /* NewDeck.swift */,
+				D27F01E41FED5FAD00209963 /* RandomCard.swift */,
+				D27F01DA1FED5E1900209963 /* NetworkHelper.swift */,
+				D27F01DC1FED5E5500209963 /* ImageAPIClient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D27F01E31FED5F8700209963 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				545F2AB51FEC2752007EBECB /* GameViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27F01E71FED712400209963 /* GameCardView.xib in Resources */,
 				545F2ABE1FEC2752007EBECB /* LaunchScreen.storyboard in Resources */,
 				545F2ABB1FEC2752007EBECB /* Assets.xcassets in Resources */,
 				545F2AB91FEC2752007EBECB /* Main.storyboard in Resources */,
@@ -136,8 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545F2AB61FEC2752007EBECB /* ViewController.swift in Sources */,
+				545F2AB61FEC2752007EBECB /* GameViewController.swift in Sources */,
+				D27F01E91FED727400209963 /* GameCardView.swift in Sources */,
+				D27F01DB1FED5E1900209963 /* NetworkHelper.swift in Sources */,
 				545F2AB41FEC2752007EBECB /* AppDelegate.swift in Sources */,
+				D2653EF71FED84B8005B8838 /* GameCardCollectionViewCell.swift in Sources */,
+				D27F01DD1FED5E5500209963 /* ImageAPIClient.swift in Sources */,
+				D27F01E51FED5FAD00209963 /* RandomCard.swift in Sources */,
+				D27F01E11FED5F4900209963 /* NewDeck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
